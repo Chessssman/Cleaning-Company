@@ -361,6 +361,15 @@ table.iksweb td {
 
  /*table-end*/ 
 
+.job__example{
+  margin: 75px 0px;
+}
+
+.job{
+  left: 140px;
+}
+
+
 /* contact-start */
 
 .contacts{
