@@ -139,7 +139,12 @@ p {
 /* intro-start */
 
 .intro {
-  background: url("../images/new_intro\ 1.jpg") no-repeat;
+  background-image: url("../images/new_intro\ 1.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.intro__background{
   background-size: cover;
   position: relative;
 }

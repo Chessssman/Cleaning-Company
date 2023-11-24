@@ -2,62 +2,282 @@
   .white__box{
     right: 135px;
   }
+
+  .work__image{
+    left: 470px;
+  }
+  
+  .work__small__box{
+    left: -120px;
+  }
+  .left__box__high__text, .center__box__high__text, .right__box__high__text{
+    left: -100px;
+  }
+  .left__box__text, .center__box__text, .right__box__text{
+    left: -100px;
+  }
+
+  .glass__image{
+    left: 390px;
+  }
+
+  .glass__left__small__box, .glass__center__small__box, .glass__right__small__box{
+    left:-120px;
+  }
+
+  .glass__left__high__text, .glass__center__high__text, .glass__right__high__text{
+    left: -100px;
+  }
+
+  .glass__left__text, .glass__center__text, .glass__right__text{
+    left: -100px;
+  }
+
+  .footer__wrapper{
+    justify-content: space-around;
+    position: relative;
+    left: -100px;
+  }
 }
 
 @media (max-width: 1080px){
   .header__wrapper{
     margin-left: 0px
   }
-}
 
-@media (max-width: 992px){
-  .container{
-    max-width: 900px;
-  }
   .white__box{
-    right: 350px;
-  }
-  .footer{
-    justify-content: space-around;
-  }
-}
-
-@media (max-width: 850px){
-  .intro__content{
-    margin-bottom: 150px;
-  }
-  .wrapper{
-    flex-wrap: wrap;
-    
+    right: 300px;
   }
 
-  .info__item{
-    width: 100%;
-    text-align: center;
-   
-  }
-  .block{
-    width: 100%;
-    padding-bottom: 120px;
+  .work__small__box{
+   left: -30px;
+   width: 270px;
+   height: 250px;
   }
 
-  .block:last-child{
-    padding-bottom: 20px;
+  .left__box__high__text, .center__box__high__text, .right__box__high__text{
+    left: -21px;
+  }
+
+  .center__box__high__text{
+    width: 270px;
+  }
+
+  .left__box__text, .center__box__text, .right__box__text{
+    left: -20px;
+  }
+
+  .glass__right__small__box, .glass__left__small__box, .glass__center__small__box{
+    width: 290px;
+    left: -20px;
+    height: 200px;
+  }
+  .glass__center__small__box{
+    width: 332px;
+  }
+
+  .glass__left__high__text, .glass__center__high__text, .glass__right__high__text{
+    left: -10px;
   }
  
-  .section__about{
-    margin-top: 0;
-  }
-  .info{
-    transform: translateY(-50%);
+  .glass__left__text, .glass__center__text, .glass__right__text{
+    left: -7px;
+    width: 290px;
   }
 
-  .services__content{
-    height: 450px;
+  .glass__image{
+    left: 430px;
+  }
+
+  .photo__down__left, .photo__upper__left{
+    left: 500px;
+  }
+
+}
+
+.left__box__text{
+  width: 275px;
+}
+.center__box__text{
+  width: 252px;
+}
+.right__box__text{
+  width: 261px;
+}
+
+@media (max-width: 1024px){
+  .white__box{
+    right: 330px
+  }
+
+  .right__work__box{
+    left: -80px;
+  }
+
+  .left__work__box{
+    left: 30px;
+  }
+
+  .right__box__high__text{
+    left: -70px;
+  }
+  
+  .right__box__text{
+    left: -70px;
+  }
+
+  .left__box__high__text{
+    left: 40px;
+  }
+  .left__box__text{
+    left: 40px;
+  }
+
+  .glass__right__small__box{
+    left: -45px;
+  }
+  .glass__right__text, .glass__right__high__text{
+    left: -35px;
+  }
+
+  .glass__left__small__box{
+    left: 50px;
+  }
+
+  .glass__left__text, .glass__left__high__text{
+    left: 55px;
+  }
+
+  .iksweb{
+    position: relative;
+    left: -40px;
+  }
+  }
+
+
+@media (max-width: 768px){
+
+  .intro{
+    max-width: 100%;
+    height: auto;
+    overflow: visible;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
     background-position: center;
   }
-
-  .label{
-    font-size: 12px;
+  .header__wrapper{
+    justify-content: space-around;
+    margin-left: -130px;
   }
+
+  .intro__title{
+    max-width: 630px;
+    margin-left: -60px;
+    font-size: 34px;
+  }
+  .intro__subtitle{
+    max-width: 580px;
+    margin-left: -60px;
+  }
+
+  .upper__right__small__box, .down__right__small__box{
+    margin-left: -190px;
+    width: 326px;
+  }
+
+  .upper__right__high__text, .upper__right__text, .down__right__high__text, .down__right__text{
+    margin-left: -190px;
+  }
+
+  .upper__right__text{
+    width: 290px;
+  }
+
+  .work__small__box{
+    display: grid;
+  }
+
+  .work__image{
+    left: 355px;
+  }
+  .work__background__box{
+    height: 1300px;
+  }
+  .right__work__box, .right__box__high__text{
+    top: 280px;
+    left: -550px;
+  }
+
+  .right__box__high__text{
+    left: -545px;
+  }
+
+  .right__box__text{
+    top: 340px;
+    left: -545px;
+  }
+
+
+  .center__work__box{
+    left: 60px;
+  }
+
+  .center__box__high__text,.center__box__text{
+    left: 65px;
+  }
+
+
+  .glass__image{
+    max-width: 650px;
+    height: auto;
+    left: 400px;
+  }
+
+  .glass__background{
+    height: 1300px;
+  }
+
+  .glass__right__small__box{
+    top: 250px;
+    left: -545px;
+  }
+
+  .glass__right__high__text{
+    top: 255px;
+    left: -540px;
+  }
+
+  .glass__right__text{
+    top: 320px;
+    left: -540px;
+  }
+
+  table.iksweb{
+    width: 600px;
+  }
+
+  .photo__upper__right{
+    left: -110px;
+  }
+
+  .photo__down__left{
+    left: 250px;
+  }
+
+  .photo__upper__left{
+    left: -110px;
+  }
+
+  .photo__down__right{
+    left: 250px;
+  }
+}
+
+@media (max-width: 420px){
+  
+}
+
+@media (max-width: 320px){
+
 }
