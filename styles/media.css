@@ -274,7 +274,180 @@
   }
 }
 
-@media (max-width: 420px){
+@media only screen and (max-width: 420px) {
+  .header__logo{
+    left: 40px;
+  }
+  .header__wrapper {
+    height: 75px; /* Примерная высота для мобильных устройств */
+    justify-content: space-between;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    align-items: center;
+    left: -100px;
+    position: relative;
+  }
+
+  .nav {
+    display: none; /* Скрыть основное меню */
+    flex-direction: column; /* Отображение пунктов меню по вертикали */
+    background-color: #ffffff; /* Цвет фона для мобильного меню */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: auto;
+    color: black;
+    padding: 20px 0; /* Примерный отступ */
+    z-index: 2;
+  }
+
+  .nav.mobile-menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 10px 0;
+  }
+
+  .hamburger-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  /* Анимация гамбургер иконки при открытии/закрытии меню */
+  .change .bar:nth-child(1) {
+    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .change .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .change .bar:nth-child(3) {
+    -webkit-transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  /* Отображение меню при нажатии на иконку */
+  .mobile-menu.active {
+    display: flex;
+  }
+
+  .nav__link::after{
+    background-color: black;
+  }
+  
+  .intro__title{
+    font-size: 24px;
+    position: relative;
+    left: -30px;
+    max-width: 320px;
+  }
+
+  .intro__subtitle{
+    max-width: 320px;
+    font-size: 18px;
+    position: relative;
+    left: -30px;
+  }
+
+  .title__text{
+    font-size: 28px;
+    letter-spacing: 4.2px;
+    position: relative;
+    right: 25px;
+  }
+  
+  
+
+  .upper__right__small__box, .upper__right__high__text, .upper__right__text{
+   display: none;
+  }
+  .down__right__small__box, .down__right__high__text, .down__right__text{
+    display: none;
+  }
+  .background__box{
+    width: 430px;
+  }
+
+  .work__image{
+  transform: scale(0.55);
+  left: 176px;
+  top: 100px
+  }
+
+  .work__title__text{
+    font-size: 28px;
+    letter-spacing: 4.2px;
+    width: 300px;
+    line-height: 45px;
+  }
+
+  .left__work__box{
+    top: -260px;
+    left: 60px;
+    height: 206px;
+  }
+  .left__box__high__text{
+    top: -255px;
+    left: 65px;
+  }
+  .left__box__text{
+    top: -150px;
+    left: 65px;
+  }
+
+  .center__work__box{
+    left: -345px;
+  }
+
+  .center__box__high__text{
+    left: -335px;
+  }
+
+  .center__box__text{
+    left: -335px;
+  }
+
+  .right__work__box{
+    left: -730px;
+    height: 230px;
+  }
+
+  .right__box__high__text{
+    left: -720px;
+  }
+
+  .right__box__text{
+    left: -720px;
+  }
+
+  .glass__background{
+    height: 1300px;
+  }
+
+  .glass__image{
+    transform: scale(0.55);
+    left: 220px;
+    top: 100px;
+  }
+
+  .glass__title__text{
+    font-size: 28px;
+    letter-spacing: 4.2px;
+    width: 300px;
+    line-height: 45px;
+  }
   
 }
 
