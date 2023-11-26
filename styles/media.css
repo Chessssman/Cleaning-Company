@@ -274,7 +274,7 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media (max-width: 420px) {
   .header__logo{
     left: 40px;
   }
@@ -582,6 +582,12 @@
   .copyright__title{
     width: 20px;
   }
+
+  .copyright__mail{
+    margin-left: 30px;
+  }
+
+
 
   
 }

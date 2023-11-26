@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/prices.css">
-  <link rel="stylesheet" href="styles/media.css">
+  <link rel="stylesheet" href="styles/media_prices.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400,500;600;700&display=swap" rel="stylesheet">
@@ -12,25 +12,30 @@
     <title>Clean House</title>
 </head>
 <body>
-    <header class="header" id="header">
-        <div class="container">
-          <div class="header__wrapper">
-            <div class="header__block">
-              <a href="index.html" class="header__logo">
-                <p>Clean House</p>
-              </a>
-            </div>
-            <!-- header__block -->
-            <nav class="nav">
-              <a href="index.html" class="nav__link">Главная</a>
-              <a href="#intro" class="nav__link ">О нас</a>
-              <a href="#price__list" class="nav__link active">Цены</a>
-              <a href="#contacts" class="nav__link ">Контакты</a>
-            </nav>
-          </div>
-          <!-- header__wrapper -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__block">
+          <a href="#" class="header__logo">
+            <p>Clean House</p>
+          </a>
         </div>
-      </header>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <nav class="nav mobile-menu">
+            <a href="#header" class="nav__link active">Главная</a>
+            <a href="#intro" class="nav__link ">О нас</a>
+            <a href="#price__list" class="nav__link ">Цены</a>
+            <a href="#contacts" class="nav__link ">Контакты</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
     
       <section class="intro">
         <div class="container">
@@ -226,22 +231,22 @@
                   Email
                 </label>
               </div>
-              <div class="form__group">
+              <div class="form__group phone__number">
                 <input type = "text" name = "phone" class = "input"  placeholder=" " autocomplete="off">
                 <label for="" class="label">
                   Номер телефона
                 </label>
               </div>
             </div>
-            <div class="for__row">
-              <div class="form__group">
+            <div class="form__row">
+              <div class="form__group detale">
                 <textarea class = "textarea" name="text" placeholder=" " autocomplete="off"></textarea>
                 <labe class="label">
                   Подробнее опишите работу
                 </labe>
               </div>
             </div>
-            <button type = "submit" class = "btn">Отправить</button>
+            <button type = "submit" class = "btn form__button">Отправить</button>
           </form>
         </div>
       </section>
@@ -249,10 +254,10 @@
       <footer class="footer">
         <div class="container">
           <div class="footer__wrapper">
-            <p class="copyright">
+            <p class="copyright copyright__title">
               © 2023 "Clean House"
             </p>
-            <p class="copyright">
+            <p class="copyright copyright__mail">
               info_atlant@mail.ru
             </p>
             
@@ -271,6 +276,8 @@
       <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script src = "main.js"></script>
       <script src="index.js"></script>
+      <script src="hamburger.js"></script>
+      <script src="slider.js"></script>
       
 </body>
 </html>

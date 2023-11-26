@@ -1,0 +1,202 @@
+@media (max-width: 1260px){
+    table.iksweb{
+        position: relative;
+        left: -90px;
+        width: 1140px;
+    }
+}
+
+@media (max-width: 1080px){
+    .header__wrapper{
+        margin-left: 0px
+      }
+
+    table.iksweb{
+        position: relative;
+        width: 990px;
+    }
+}
+
+@media (max-width: 1024px){
+    
+}
+
+@media (max-width: 768px){
+    .intro{
+        max-width: 900px;
+        height: auto;
+        overflow: visible;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: center;
+      }
+      .header__wrapper{
+        justify-content: space-around;
+        margin-left: -130px;
+      }
+    
+      .intro__title{
+        max-width: 630px;
+        margin-left: -60px;
+        font-size: 34px;
+      }
+      .intro__subtitle{
+        max-width: 580px;
+        margin-left: -60px;
+      }
+
+      table.iksweb{
+        position: relative;
+        width: 700px;
+      }
+}
+
+@media (max-width: 420px) {
+    .header__logo{
+      left: 40px;
+    }
+    .header__wrapper {
+      height: 75px; /* Примерная высота для мобильных устройств */
+      justify-content: space-between;
+    }
+  
+    .hamburger-menu {
+      display: flex;
+      align-items: center;
+      left: -100px;
+      position: relative;
+    }
+  
+    .nav {
+      display: none; /* Скрыть основное меню */
+      flex-direction: column; /* Отображение пунктов меню по вертикали */
+      background-color: #ffffff; /* Цвет фона для мобильного меню */
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: auto;
+      color: black;
+      padding: 20px 0; /* Примерный отступ */
+      z-index: 2;
+    }
+  
+    .nav.mobile-menu a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      margin: 10px 0;
+    }
+  
+    .hamburger-icon {
+      display: block;
+      cursor: pointer;
+      padding: 10px;
+    }
+  
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 5px 0;
+      transition: 0.4s;
+    }
+  
+    /* Анимация гамбургер иконки при открытии/закрытии меню */
+    .change .bar:nth-child(1) {
+      -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .change .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .change .bar:nth-child(3) {
+      -webkit-transform: rotate(45deg) translate(-5px, -6px);
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  
+    /* Отображение меню при нажатии на иконку */
+    .mobile-menu.active {
+      display: flex;
+    }
+  
+    .nav__link::after{
+      background-color: black;
+    }
+    
+    .intro__title{
+      font-size: 24px;
+      position: relative;
+      left: -30px;
+      max-width: 320px;
+    }
+  
+    .intro__subtitle{
+      max-width: 320px;
+      font-size: 18px;
+      position: relative;
+      left: -30px;
+    }
+  
+    .title__text{
+      font-size: 28px;
+      letter-spacing: 4.2px;
+      position: relative;
+      right: 25px;
+    }
+    
+    
+  .table__text{
+    font-size: 24px;
+  }
+
+  table.iksweb{
+    width: 350px;
+  }
+  
+    .contacts{
+      left: -135px;
+      position: relative;
+    }
+  
+    .form__row{
+      width: auto;
+    }
+  
+    .input{
+      width: 300px;
+    }
+  
+    .detale{
+      top: 80px;
+    }
+  
+    .phone__number{
+      top: 65px;
+      left: -356px;
+    }
+  
+    .form__button{
+      top: 35px;
+      position: relative;
+    }
+  
+    .copyright{
+      margin-left: -65px;
+    }
+  
+    .copyright__title{
+      width: 20px;
+    }
+
+    .copyright__mail{
+        margin-left: 30px;
+    }
+    .footer__wrapper{
+        justify-content: space-evenly;
+        position: relative;
+        left: -100px;
+    }
+    
+  }
