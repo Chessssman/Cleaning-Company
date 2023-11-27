@@ -194,6 +194,10 @@
     width: 290px;
   }
 
+  .dry__image{
+    left: -350px;
+  }
+
   .work__small__box{
     display: grid;
   }
@@ -275,6 +279,32 @@
 }
 
 @media (max-width: 420px) {
+
+  .info{
+    height: 900px;
+  }
+
+  .dry__image{
+    left: 1px;
+    top: 100px;
+    transform: scale(0.95);
+  }
+
+  .upper__left__box{
+    top: 431px;
+  }
+
+  .down__left__box{
+    top: 625px;
+  }
+
+  .white__box{
+    max-width: 420px;
+  }
+
+  .job__background{
+    max-width: 420px;
+  }
   .header__logo{
     left: 40px;
   }
@@ -378,12 +408,14 @@
   }
   .background__box{
     width: 430px;
+    height: 730px;
   }
 
   .work__image{
   transform: scale(0.55);
   left: 176px;
-  top: 100px
+  top: 100px;
+  max-width: 1000px;
   }
 
   .work__title__text{
@@ -438,8 +470,9 @@
 
   .glass__image{
     transform: scale(0.55);
-    left: 220px;
-    top: 100px;
+    left: 190px;
+    top: 75px;
+    max-width: 700px;
   }
 
   .glass__title__text{

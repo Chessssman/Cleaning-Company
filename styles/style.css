@@ -7,6 +7,10 @@ body {
   background-color: #ffffff;
 }
 
+html, body{
+  overflow-x: hidden;
+}
+
 .btn {
   display: inline-flex;
   font-family: 'Open Sans', sans-serif;
@@ -139,7 +143,7 @@ p {
 /* intro-start */
 
 .intro {
-  transition: background-image 0.5s ease-in-out;
+  transition: background-image 0.5s ease-in;
   background-size: cover;
   position: relative;
 }
@@ -197,7 +201,7 @@ p {
 
 .info {
   margin-top: auto;
-
+  height: 1300px;
 }
 
 .info__item {
@@ -246,6 +250,17 @@ p {
   right: 100px;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
+}
+
+
+.dry__image{
+  width: auto; 
+  height: auto; 
+  display:block;
+  margin-top: 20px;
+  position: relative;
+  transform: scale(0.5);
+  left: -200px;
 }
 
 /* info-end */
@@ -513,7 +528,7 @@ table.iksweb td {
 
 .background__box {
   width: 1000px;
-  height: 500px;
+  height: 1000px;
   left: 341px;
   top: 92px;
   position: absolute;
@@ -527,7 +542,7 @@ table.iksweb td {
   width: 354px;
   height: 171px;
   left: 952px;
-  top: 396px;
+  top: 790px;
   position: absolute;
 }
 
@@ -535,7 +550,7 @@ table.iksweb td {
   width: 354px;
   height: 171px;
   left: 382px;
-  top: 396px;
+  top: 790px;
   position: absolute;
 }
 
@@ -543,7 +558,7 @@ table.iksweb td {
   width: 354px;
   height: 171px;
   left: 952px;
-  top: 211px;
+  top: 600px;
   position: absolute;
 }
 
@@ -551,7 +566,7 @@ table.iksweb td {
   width: 354px;
   height: 171px;
   left: 382px;
-  top: 211px;
+  top: 600px;
   position: absolute;
 }
 
@@ -561,7 +576,7 @@ table.iksweb td {
   left: 0px;
   top: 0px;
   position: absolute;
-  background: #EDF1F8;
+  background: #2AA1B7;
   border-radius: 26px;
 }
 
@@ -582,7 +597,7 @@ table.iksweb td {
   left: 12px;
   top: 61px;
   position: absolute;
-  color: black;
+  color: #ffffff;
   font-size: 14px;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
@@ -597,7 +612,7 @@ table.iksweb td {
   left: 12px;
   top: 20px;
   position: absolute;
-  color: #36BD4C;
+  color: #20433e;
   font-size: 18px;
   font-family: Roboto Slab;
   font-weight: 600;
@@ -612,7 +627,7 @@ table.iksweb td {
   left: 12px;
   top: 57px;
   position: absolute;
-  color: black;
+  color: #ffffff;
   font-size: 14px;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
@@ -627,7 +642,7 @@ table.iksweb td {
   left: 12px;
   top: 20px;
   position: absolute;
-  color: #36BD4C;
+  color: #20433e;
   font-size: 18px;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
@@ -642,7 +657,7 @@ table.iksweb td {
   left: 12px;
   top: 88px;
   position: absolute;
-  color: black;
+  color: #ffffff;
   font-size: 14px;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
@@ -657,7 +672,7 @@ table.iksweb td {
   left: 12px;
   top: 20px;
   position: absolute;
-  color: #36BD4C;
+  color: #20433e;
   font-size: 18px;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
@@ -672,7 +687,7 @@ table.iksweb td {
   left: 12px;
   top: 84px;
   position: absolute;
-  color: black;
+  color: #ffffff;
   font-size: 14px;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
@@ -687,7 +702,7 @@ table.iksweb td {
   left: 12px;
   top: 20px;
   position: absolute;
-  color: #36BD4C;
+  color: #20433e;
   font-size: 18px;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
@@ -701,7 +716,6 @@ table.iksweb td {
   font-size: 42px;
   font-family: Roboto Slab;
   font-weight: 500;
-  text-transform: lowercase;
   line-height: 63px;
   letter-spacing: 6.30px;
   word-wrap: break-word
@@ -748,7 +762,7 @@ table.iksweb td {
   left: 0px; 
   top: 0px; 
   position: absolute; 
-  background: white; 
+  background: #2AA1B7; 
   border-radius: 26px
 }
 
@@ -770,7 +784,7 @@ table.iksweb td {
   left: 25px; 
   top: 100.54px; 
   position: absolute; 
-  color: black; 
+  color: #ffffff; 
   font-size: 14px; 
   font-family: 'Roboto Slab', sans-serif; 
   font-weight: 500; 
@@ -786,7 +800,7 @@ table.iksweb td {
   left: 25px; 
   top: 8.64px; 
   position: absolute; 
-  color: #36BD4C; 
+  color: #20433e; 
   font-size: 18px; 
   font-family: 'Roboto Slab', sans-serif; 
   font-weight: 500; 
@@ -801,7 +815,7 @@ table.iksweb td {
   left: 26px; 
   top: 100.54px; 
   position: absolute; 
-  color: black; 
+  color: #ffffff; 
   font-size: 14px; 
   font-family: 'Roboto Slab',sans-serif; 
   font-weight: 500; 
@@ -816,7 +830,7 @@ table.iksweb td {
   left: 26px; 
   top: 8.64px; 
   position: absolute; 
-  color: #36BD4C; 
+  color: #20433e; 
   font-size: 18px; 
   font-family: 'Roboto Slab',sans-serif; 
   font-weight: 500; 
@@ -831,7 +845,7 @@ table.iksweb td {
   left: 51px; 
   top: 118.38px; 
   position: absolute; 
-  color: black; 
+  color: #ffffff; 
   font-size: 14px; 
   font-family: 'Roboto Slab',sans-serif; 
   font-weight: 500; 
@@ -846,7 +860,7 @@ table.iksweb td {
   left: 51px; 
   top: 8.64px; 
   position: absolute; 
-  color: #36BD4C; 
+  color: #20433e; 
   font-size: 18px; 
   font-family: 'Roboto Slab',sans-serif; 
   font-weight: 500; 
@@ -905,7 +919,7 @@ table.iksweb td {
   left: 0px; 
   top: 0px; 
   position: absolute; 
-  background: #EDF1F8; 
+  background: #2AA1B7; 
   border-radius: 26px
 }
 
@@ -923,7 +937,7 @@ table.iksweb td {
   left: 0px; 
   top: 0px; 
   position: absolute; 
-  background: #EDF1F8; 
+  background: #2AA1B7; 
   border-radius: 26px
 }
 
@@ -941,7 +955,7 @@ table.iksweb td {
   left: 0px; 
   top: 0px; 
   position: absolute; 
-  background: #EDF1F8; 
+  background: #2AA1B7; 
   border-radius: 26px
 }
 
@@ -957,7 +971,7 @@ table.iksweb td {
   left: 24px; 
   top: 79.30px; 
   position: absolute; 
-  color: black; 
+  color: #ffffff; 
   font-size: 14px; 
   font-family: 'Roboto Slab' ,sans-serif; 
   font-weight: 500; 
@@ -973,7 +987,7 @@ table.iksweb td {
   left: 24px; 
   top: 7.82px; 
   position: absolute; 
-  color: #36BD4C; 
+  color: #20433e; 
   font-size: 18px; 
   font-family: 'Roboto Slab',sans-serif; 
   font-weight: 500; 
@@ -989,7 +1003,7 @@ table.iksweb td {
   left: 14px; 
   top: 72px; 
   position: absolute; 
-  color: black; 
+  color: #ffffff; 
   font-size: 14px; 
   font-family: 'Roboto Slab',sans-serif; 
   font-weight: 500; 
@@ -1004,7 +1018,7 @@ table.iksweb td {
   left: 14px; 
   top: 8px; 
   position: absolute; 
-  color: #36BD4C; 
+  color: #20433e; 
   font-size: 18px; 
   font-family: 'Roboto Slab' ,sans-serif;
   font-weight: 500; 
@@ -1019,7 +1033,7 @@ table.iksweb td {
   left: 24px; 
   top: 72px; 
   position: absolute; 
-  color: black; 
+  color: #ffffff; 
   font-size: 14px; 
   font-family: 'Roboto Slab', sans-serif; 
   font-weight: 500; 
@@ -1034,7 +1048,7 @@ table.iksweb td {
   left: 24px; 
   top: 8px; 
   position: absolute; 
-  color: #36BD4C; 
+  color: #20433e; 
   font-size: 18px; 
   font-family: 'Roboto Slab', sans-serif; 
   font-weight: 500; 
