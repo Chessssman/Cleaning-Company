@@ -155,7 +155,7 @@
   }
 
 
-@media (max-width: 768px){
+@media (min-width:768px) and (max-width: 920px){
 
   .intro{
     max-width: 100%;
