@@ -4,6 +4,24 @@
         left: -90px;
         width: 1140px;
     }
+
+    .intro__content{
+      width: 1160px;
+      left: 30px;
+    }
+
+    .table__text{
+      width: 1160px;
+    }
+    .container{
+      max-width: 1160px;
+      margin-right: 0px;
+    }
+    .footer__wrapper{
+      justify-content: space-around;
+      position: relative;
+      left: -100px;
+    }
 }
 
 @media (max-width: 1080px){
@@ -15,6 +33,16 @@
         position: relative;
         width: 990px;
     }
+
+    .table__text{
+      overflow-x: hidden;
+    }
+
+    .footer__wrapper{
+      justify-content: space-around;
+      left: -115px;
+      position: relative;
+    }
 }
 
 @media (max-width: 1024px){
@@ -22,6 +50,15 @@
 }
 
 @media (max-width: 768px){
+ 
+  .nav{
+    left: 63px;
+    position: relative;
+  }
+
+  .nav__link{
+    margin-right: 15px;
+  }
     .intro{
         max-width: 900px;
         height: auto;
@@ -50,9 +87,19 @@
         position: relative;
         width: 700px;
       }
+      .container{
+        margin-right: 0px;
+      }
+
+      .footer__wrapper{
+        position: relative;
+        left: -143px;
+        justify-content: space-around;
+      }
 }
 
 @media (max-width: 420px) {
+
     .header__logo{
       left: 40px;
     }
@@ -64,8 +111,12 @@
     .hamburger-menu {
       display: flex;
       align-items: center;
-      left: -100px;
+      left: 59px;
       position: relative;
+    }
+
+    .mobile-menu.active{
+      left: -70px;
     }
   
     .nav {
@@ -152,11 +203,13 @@
   }
 
   table.iksweb{
+    left: -90px;
     width: 350px;
   }
-  
+ 
+
     .contacts{
-      left: -135px;
+      left: -85px;
       position: relative;
     }
   
@@ -199,4 +252,47 @@
         left: -100px;
     }
     
+  }
+
+  @media (max-width: 376px){
+
+    .intro__content{
+      left: 30px;
+      width: 240px;
+    }
+
+    .hamburger-menu{
+      left: 24px;
+    }
+
+    
+    .upper__left__box{
+      left: 350px;
+    }
+  
+    .down__left__box{
+      left: 350px;
+    }
+  
+    .dry__image{
+      transform: scale(0.7);
+    }
+  
+    .title__text{
+      width: 330px;
+      display: flex;
+      line-height: 45px;
+    }
+    table.iksweb{
+      max-width: 340px;
+      left: -115px;
+    }
+  
+    .footer__wrapper{
+      left: -90px;
+    }
+  
+    .mobile-menu{
+      left: -70px;
+    }
   }
