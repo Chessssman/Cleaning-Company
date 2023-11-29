@@ -156,7 +156,9 @@
 
 
 @media (max-width: 768px){
-
+  .phone__number{
+    left: 180px;
+  }
   .intro{
     max-width: 100%;
     height: auto;
@@ -178,6 +180,11 @@
 
   .nav__link{
     margin-right: 15px;
+    
+  }
+
+  .nav__link:first-child{
+    margin-left: 110px;
   }
 
   .intro__title{
@@ -289,8 +296,16 @@
 
 @media (max-width: 420px) {
 
-
   
+
+  .header__phone{
+    margin-top: 15px;
+  }
+
+  .mobile-menu.active{
+    left: -35px;
+   
+  }
   .info{
     height: 900px;
   }
@@ -322,12 +337,13 @@
   .header__wrapper {
     height: 75px; /* Примерная высота для мобильных устройств */
     justify-content: space-between;
+ 
   }
 
   .hamburger-menu {
     display: flex;
     align-items: center;
-    left: -100px;
+    left: -180px;
     position: relative;
   }
 
@@ -610,8 +626,8 @@
   }
 
   .phone__number{
-    top: 65px;
-    left: -356px;
+    
+    left: 14px;
   }
 
   .form__button{

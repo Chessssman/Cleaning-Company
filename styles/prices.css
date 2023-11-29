@@ -10,6 +10,19 @@ html, body{
   body{
     background-color:#ffffff; 
   }
+
+
+  .phone__number{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 12em;
+    align-items: center;
+    left: 500px;
+    position: relative;
+  }
+  
+  .header__phone{
+    margin-top: 15px;
+  }
   
   .btn{
     display: inline-flex;

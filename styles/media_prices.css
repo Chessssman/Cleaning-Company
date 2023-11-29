@@ -25,6 +25,14 @@
 }
 
 @media (max-width: 1080px){
+
+  .header__phone{
+    width: 890px;
+  }
+
+  .phone__number{
+    left: 390px;
+  }
     .header__wrapper{
         margin-left: 0px
       }
@@ -50,6 +58,19 @@
 }
 
 @media (max-width: 768px){
+  .phone__number{
+    top: 0px;
+    left: 200px;
+  }
+
+  .intro__content{
+    left: 30px;
+  }
+
+  .header__phone{
+    margin-top: 15px;
+    width:630px;
+  }
  
   .nav{
     left: 63px;
@@ -100,8 +121,24 @@
 
 @media (max-width: 420px) {
 
+  .header__phone{
+    margin-top: 15px;
+    width: 191px;
+  }
+  .phone__number{
+    
+    left: -9px;
+  }
+  .header__block{
+    width: 500px;
+  }
   .intro__block{
     left: -43px;
+    position: relative;
+  }
+
+  .table__text{
+    left: -110px;
     position: relative;
   }
 
@@ -116,12 +153,12 @@
     .hamburger-menu {
       display: flex;
       align-items: center;
-      left: 59px;
+      left: 30px;
       position: relative;
     }
 
     .mobile-menu.active{
-      left: -70px;
+      left: -40px;
     }
   
     .nav {
@@ -208,7 +245,7 @@
   }
 
   table.iksweb{
-    left: -90px;
+    left: -130px;
     width: 350px;
   }
  
@@ -230,9 +267,9 @@
       top: 80px;
     }
   
-    .phone__number{
-      top: 65px;
-      left: -356px;
+    .phone__numbers{
+      top: 59px;
+      left: -360px;
     }
   
     .form__button{
