@@ -1,5 +1,5 @@
 // Находим все ссылки с классом "nav__link"
-const links = document.querySelectorAll('.nav__link, .btn');
+const links = document.querySelectorAll('.social__contacts, .btn');
 
 // Обходим каждую ссылку и добавляем обработчик события клика
 links.forEach(link => {
