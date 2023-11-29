@@ -87,7 +87,7 @@ p {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 600;
-
+  align-items: center;
 }
 
 .nav__link {
@@ -135,6 +135,12 @@ p {
 .phone__number {
   color: white;
   text-decoration: none;
+  font-size: 17px;
+}
+
+.phone__number:hover{
+  color:#2AA1B7
+  
 }
 
 /* header-end */

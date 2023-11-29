@@ -48,7 +48,7 @@
   .white__box{
     right: 300px;
   }
-
+  
   .work__small__box{
    left: -30px;
    width: 270px;
@@ -169,6 +169,15 @@
   .header__wrapper{
     justify-content: space-around;
     margin-left: -130px;
+  }
+
+  .nav{
+    left: -36px;
+    position: relative;
+  }
+
+  .nav__link{
+    margin-right: 15px;
   }
 
   .intro__title{
@@ -653,5 +662,9 @@
 
   .footer__wrapper{
     left: -90px;
+  }
+
+  .mobile-menu{
+    left: -70px;
   }
 }
