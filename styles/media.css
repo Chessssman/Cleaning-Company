@@ -628,6 +628,30 @@
   
 }
 
-@media (max-width: 320px){
+@media (max-width: 376px){
+  .upper__left__box{
+    left: 350px;
+  }
 
+  .down__left__box{
+    left: 350px;
+  }
+
+  .dry__image{
+    transform: scale(0.7);
+  }
+
+  .title__text{
+    width: 330px;
+    display: flex;
+    line-height: 45px;
+  }
+  table.iksweb{
+    max-width: 340px;
+    left: -115px;
+  }
+
+  .footer__wrapper{
+    left: -90px;
+  }
 }
